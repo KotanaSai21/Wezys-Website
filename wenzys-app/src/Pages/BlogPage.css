@@ -1,0 +1,25 @@
+/* src/App.css or src/components/Blog.css */
+
+h1 {
+    padding: 10px 30px;
+}
+.blog-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    /* mar */
+}
+
+.blog-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+    margin: 20px;
+}
+
+.blog-item img {
+    max-width: 100%;
+    height: auto;
+}

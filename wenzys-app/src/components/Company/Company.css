@@ -1,0 +1,132 @@
+.company-div{
+    display: flex;
+    flex-direction: column;
+}
+.unlocking-div {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    margin: 20px 0px;
+    padding: 40px;
+    /* background-color: burlywood; */
+    align-items: center;
+}
+
+.unlocking-div h2 {
+    width: 40%;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.unlocking-div-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    background-color: #0f0f0f;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.mission-container-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+    text-align: left;
+}
+
+.mission-container-inner {
+    font-size: 18px;
+    /* margin: ; */
+}
+.mission-container-img {
+    width: 50%;
+    /* height: ; */
+    background-color: darkgray;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.custom-dashboard {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+  padding: 40px;
+  align-items: flex-start;
+}
+
+.custom-dashboard-first, .custom-dashboard-second {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0px 10px;
+  align-self: flex-start;
+  background-color: #0f0f0f;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.custom-dashboard-first img, .custom-dashboard-second img {
+  width: 150px;
+  height: 150px;
+}
+
+
+/* src/App.css */
+.teams {
+    text-align: center;
+  }
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.card {
+  /* background-color: #f8f9fa; */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+}
+
+.card p {
+  font-size: 1.2em;
+  margin: 0 0 10px;
+}
+
+.card a {
+  color: #0073b1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}

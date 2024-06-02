@@ -1,0 +1,105 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.news-letter {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    align-items: flex-start;
+    padding: 0px 30px;
+}
+
+/* .news-letter span {
+    padding: 10px 0px;
+} */
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #16181d;
+    padding: 20px;
+    margin: 15px 0px;
+    width: 80%;
+}
+
+.subscribe label {
+    margin: 5px 0px;
+}
+
+.subscribe input {
+    width: 100%;
+    /* padding: 10px; */
+    margin: 5px 0px;
+    background-color: white;
+    height: 25px;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.resources {
+    display: flex;
+    width: 33.33%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+}
+
+.icon {
+    padding: 10px;
+}
+
+.follow {
+    width: 33.33%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0px;
+}
+
+.subscribe-btn {
+    margin: 15px 0px;
+}
+
+.resources ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.follow ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    /* margin-left: 20px; */
+    list-style-type: none;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column !important;
+}
+
+.contact-us li {
+    margin: 5px 0px;
+}
