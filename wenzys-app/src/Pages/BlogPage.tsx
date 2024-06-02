@@ -1,5 +1,5 @@
 // src/components/Blog.tsx
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Header from '../components/Header/Header';
 import './BlogPage.css';
 
